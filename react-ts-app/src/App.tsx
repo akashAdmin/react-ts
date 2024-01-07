@@ -21,6 +21,7 @@ interface User {
   picture: {
     large: string;
   };
+  email:string
 }
 
 const App: React.FC = () => {
@@ -91,6 +92,7 @@ const App: React.FC = () => {
                   >
                     Delete
                   </Button>
+                  {<h2>{user.email}</h2>}
                 </CardContent>
               </CardActionArea>
             </Card>
