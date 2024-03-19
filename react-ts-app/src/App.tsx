@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from "react";
 import {
   CircularProgress,
@@ -21,7 +19,7 @@ interface User {
   picture: {
     large: string;
   };
-  email:string
+  email: string;
 }
 
 const App: React.FC = () => {
@@ -104,3 +102,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+// asd
